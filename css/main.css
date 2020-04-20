@@ -49,8 +49,6 @@ nav {
 }
 
 .nav-links li {
-  display: flex;
-  flex-flow: row nowrap;
   font-size: 1.2rem;
 }
 
@@ -61,6 +59,10 @@ nav {
   display: flex;
   flex-flow: column wrap;
   width: 100%;
+  background-image: url(../images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 125% 35%;
+  background-position: center 48%;
 }
 
 .hero-illustration {
@@ -68,28 +70,20 @@ nav {
   margin: 0 auto;
 }
 
-/* .curvy-illustration {
-  display: block;
-  position: absolute;
-  width: 210%;
-  z-index: 0;
-} */
-
 .hero-text {
   display: flex;
   flex-flow: column nowrap;
+  align-items: center;
   text-align: center;
   margin: 0 auto;
   width: 100%;
-  background: url(../images/bg-curvy-mobile.svg) top center no-repeat;
-  background-size: contain;
 }
 
 .hero-text h1 {
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   font-family: 'Raleway', sans-serif;
-  line-height: 3.5rem;
-  width: 80%;
+  line-height: 3.8rem;
+  width: 85%;
   margin: 0 auto;
   padding-top: 60px;
 }
@@ -110,7 +104,7 @@ button {
   color: hsl(0, 0%, 100%);
   border-radius: 50px;
   border: none;
-  background-color: hsl(198, 60%, 50%);
+  background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
   width: 60%;
   height: 75px;
   margin: 20px auto;
@@ -118,4 +112,5 @@ button {
 
 .hero-button {
   background-color: hsl(218, 28%, 13%);
+  width: 100%;
 }
