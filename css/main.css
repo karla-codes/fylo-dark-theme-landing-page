@@ -3,9 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: hsl(0, 0%, 100%);
-  background-color: hsl(218, 28%, 13%);
-  display: flex;
-  flex-flow: column wrap;
+  background-color: hsl(217, 28%, 15%);
   width: 100%;
   margin: 0;
 }
@@ -22,14 +20,14 @@ a {
 
 button {
   font-family: 'Raleway', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   border-radius: 50px;
   border: none;
   background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
-  width: 60%;
-  height: 75px;
+  width: 65%;
+  height: 50px;
   margin: 20px auto;
 }
 
@@ -42,12 +40,13 @@ button {
 nav {
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   width: 90%;
-  margin: 45px auto;
+  margin: 20px auto 50px;
 }
 
-.logo {
-  width: 50%;
+.logo img {
+  width: 60%;
 }
 
 .nav-links {
@@ -60,7 +59,7 @@ nav {
 }
 
 .nav-links li {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 
 
@@ -73,7 +72,7 @@ nav {
   background-image: url(../images/bg-curvy-mobile.svg);
   background-repeat: no-repeat;
   background-size: 120% 35%;
-  background-position: center 48%;
+  background-position: center 40%;
 }
 
 .hero-illustration {
@@ -91,20 +90,19 @@ nav {
 }
 
 .hero-text h1 {
-  font-size: 2.6rem;
+  font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
-  line-height: 3.8rem;
+  line-height: 2.4rem;
   width: 85%;
   margin: 0 auto;
-  padding-top: 60px;
+  padding-top: 45px;
 }
 
 .hero-text p {
-  font-size: 1.28rem;
-  line-height: 2.2rem;
+  line-height: 1.8rem;
   background-color: hsl(218, 28%, 13%);
+  padding: 20px 40px;
   margin: 0;
-  padding: 30px 85px;
 }
 
 
@@ -151,4 +149,20 @@ nav {
   text-align: center;
   margin-bottom: 140px;
   width: 100%;
+}
+
+/********** Teams Styles **********/
+
+.teams-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .teams-illustration {
+  width: 80%;
+} */
+
+.teams-text {
+  width: 80%;
 }
