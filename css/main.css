@@ -407,9 +407,9 @@ footer {
 }
 
 
-/*********************************************************
+/***************************************************************************
 Tablet Styles
-*********************************************************/
+**************************************************************************/
 
 @media screen and (min-width: 640px) {
 
@@ -459,14 +459,6 @@ Tablet Styles
 
   /********** Features Section **********/
 
-  .features-wrapper {
-
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center; */
-  }
-
   .features-description {
     width: 50%;
   }
@@ -513,12 +505,6 @@ Tablet Styles
     padding-left: 40px;
   }
 
-  .contact-location,
-  .contact-phone,
-  .contact-email {
-    /* width: 60%; */
-  }
-
   .footer-links-wrapper {
     flex-direction: row;
     align-items: flex-start;
@@ -538,5 +524,86 @@ Tablet Styles
 
   .attribution {
     margin: 40px auto 10px;
+  }
+}
+
+/***************************************************************************
+Desktop Styles
+**************************************************************************/
+
+@media screen and (min-width: 900px) {
+
+  /********** Navigation **********/
+
+  .logo {
+    width: 20%;
+  }
+
+  .nav-links {
+    width: 20%;
+  }
+
+  /********** Hero Section  **********/
+
+  .hero-illustration {
+    width: 40%;
+  }
+
+  .hero-wrapper {
+    height: 1000px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+    width: 46%;
+    line-height: 3rem;
+  }
+
+  .hero-text p {
+    width: 30%;
+  }
+
+  .hero-button {
+    width: 15%;
+  }
+
+  /********** Features Section **********/
+
+
+  .features-wrapper {
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 200px;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+
+  .features-icons img {
+    width: inherit;
+  }
+
+  .features-description {
+    width: 70%;
+  }
+
+  .block-one {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .block-two {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .block-three {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  .block-four {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
   }
 }
