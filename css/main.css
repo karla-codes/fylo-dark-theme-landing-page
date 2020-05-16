@@ -547,6 +547,10 @@ Desktop Styles
 
   /********** Navigation **********/
 
+  nav {
+    margin-top: 70px;
+  }
+
   .logo {
     width: 20%;
   }
@@ -698,6 +702,54 @@ Desktop Styles
     margin: 0 50px 40px 10px;
   }
 
+  /********** Footer **********/
+
+  .contact-info {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50px 35px 35px;
+    width: 40%;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .contact-info img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 30%;
+  }
+
+  .contact-info p {
+    width: 74%;
+  }
+
+  .contact-location {
+    grid-column: 1 / 2;
+    grid-row: 2 / -1;
+    width: 100%;
+  }
+
+  .contact-phone {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+    margin: 14px 0;
+  }
+
+  .contact-email {
+    grid-column: 2 / -1;
+    grid-row: 3 / -1;
+    margin: 14px 0;
+  }
+
+  .footer-links-wrapper {
+    width: 20%;
+    margin-top: 100px;
+  }
+
+  .social-media {
+    margin-top: 100px;
+    width: 10%;
+  }
 
 
 
