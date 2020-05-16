@@ -242,7 +242,7 @@ nav {
   align-self: center;
   justify-self: center;
   width: 70%;
-  clip-path: circle();
+  clip-path: circle(50%);
 }
 
 .testimonial-name,
